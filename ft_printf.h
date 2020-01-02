@@ -17,31 +17,31 @@
 # include <unistd.h>
 
 typedef struct	s_flags{
-	int			is_front_or_end; is there - 
-	int			is_zero; is there  0
+	int			is_front_or_end; //is there - 
+	int			is_zero; //is there  0
 	char		format; 
-	int			wi_arg; is there  *
-	int			has_pre; is there .
-	int			prec_arg; is there *
-	int			wi; width
-	int			prec; precesion
-	int			is_m; is * value on precesion negative
+	int			wi_arg;// is there  *
+	int			has_pre; //is there .
+	int			prec_arg; //is there *
+	int			wi;// width
+	int			prec; //precesion
+	int			is_m; //is * value on precesion negative
 }				t_flags;
 
 typedef struct	s_param{
-	int			s; n of ' '
-	int			z; n o '0'
-	int			n; is negative
-	long		ns; number size
-	long long	tp; number
-	size_t		dd; number 
+	int			s; //n of ' '
+	int			z; //n o '0'
+	int			n;// is negative
+	long		ns; //number size
+	long long	tp;// number
+	size_t		dd; //number 
 }				t_param;
 
 typedef struct	s_string{
-	int			s;
-	int			z;
-	long		ns;
-	char		*tp;
+	int			s; // number  of ' '
+	int			z; // number of '0'
+	long		ns;	// str  size
+	char		*tp; // str 
 }				t_string;
 
 int				ft_memcmp(const void *s1, const void *s2, size_t n);
