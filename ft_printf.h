@@ -17,24 +17,24 @@
 # include <unistd.h>
 
 typedef struct	s_flags{
-	int			is_front_or_end;
-	int			is_zero;
-	char		format;
-	int			wi_arg;
-	int			has_pre;
-	int			prec_arg;
-	int			wi;
-	int			prec;
-	int			is_m;
+	int			is_front_or_end; is there - 
+	int			is_zero; is there  0
+	char		format; 
+	int			wi_arg; is there  *
+	int			has_pre; is there .
+	int			prec_arg; is there *
+	int			wi; width
+	int			prec; precesion
+	int			is_m; is * value on precesion negative
 }				t_flags;
 
 typedef struct	s_param{
-	int			s;
-	int			z;
-	int			n;
-	long		ns;
-	long long	tp;
-	size_t		dd;
+	int			s; n of ' '
+	int			z; n o '0'
+	int			n; is negative
+	long		ns; number size
+	long long	tp; number
+	size_t		dd; number 
 }				t_param;
 
 typedef struct	s_string{
